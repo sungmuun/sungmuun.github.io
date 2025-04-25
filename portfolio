@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>봉성문의 포트폴리오</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffffff;
+      color: #000000;
+    }
+    header {
+      background-color: #000000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+    .nav-links {
+      background-color: #f0f0f0;
+      padding: 20px;
+      text-align: center;
+    }
+    .nav-links a {
+      color: #000000;
+      margin: 0 20px;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .nav-links a:hover {
+      text-decoration: underline;
+    }
+    main {
+      padding: 30px;
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1, h2 {
+      color: #000000;
+    }
+    p {
+      line-height: 1.6;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    li {
+      margin-bottom: 10px;
+    }
+    section {
+      margin-bottom: 50px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>봉성문의 포트폴리오</h1>
+  </header>
+
+  <div class="nav-links">
+    <a href="#intro">소개</a>
+    <a href="#project">프로젝트</a>
+    <a href="#contact">연락처</a>
+  </div>
+
+  <main>
+    <section id="intro">
+      <h2>소개</h2>
+      <p>안녕하세요! 저는 르노코리아(Renault KOREA)에서 프로젝트 매니지먼트 리더(PML)로 근무 중인 봉성문입니다. 프로젝트의 일정 관리와 품질 관리를 책임지고 있으며, 팀과 함께 성공적인 런칭을 위해 노력하고 있습니다.</p>
+    </section>
+
+    <section id="project">
+      <h2>프로젝트</h2>
+      <p>제가 진행한 주요 프로젝트는 다음과 같습니다:</p>
+      <ul>
+        <li>QM6 Ph1</li>
+        <li>QM6 Ph2</li>
+        <li>HHN (EUR&GOM)</li>
+        <li>LJL Ph2</li>
+        <li>AR2 (AURORA2)</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>연락처</h2>
+      <p>이메일: <a href="mailto:xxx@naver.com">xxx@naver.com</a></p>
+      <p>전화번호: 010-1234-5678</p>
+      <p>소속 회사: Renault KOREA</p>
+    </section>
+  </main>
+</body>
+</html>
